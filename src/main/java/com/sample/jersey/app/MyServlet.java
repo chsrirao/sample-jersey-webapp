@@ -14,8 +14,8 @@ public class MyServlet implements ServletContextListener {
     public void contextInitialized(ServletContextEvent e) {
         System.out.println("Context Initialized");
 
-        createClient();
-        setApplicationHref();
+        //createClient();
+        //setApplicationHref();
 
     }
 
